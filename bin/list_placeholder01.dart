@@ -5,7 +5,10 @@ Return the List
 
 */
 
+List func(List r) {
+  return r;
+}
+
 void main() {
-  List x = [1, 2, 3, 4, 5];
-  print(x);
+  print(func([1, 2, 3, 4, 5]));
 }
