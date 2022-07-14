@@ -6,7 +6,7 @@ Return the List
 
 */
 List func() {
-  List n = [0];
+  List n = List.filled(4, 0);
   return n;
 }
 
