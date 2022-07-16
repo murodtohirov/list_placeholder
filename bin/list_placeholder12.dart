@@ -8,7 +8,6 @@ Return the List
 
 List func(int n) {
   List a = [];
-  int y = 0;
   while (0 < n) {
     a.add(n * n);
     n -= 1;
@@ -16,6 +15,7 @@ List func(int n) {
   return a;
 }
 
+//wertwjer
 void main() {
   print(func(4));
 }
