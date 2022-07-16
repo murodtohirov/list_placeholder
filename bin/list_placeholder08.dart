@@ -6,13 +6,13 @@ Return the List
 
 */
 List func(int n) {
-  List l = [];
+  List i = [];
   int s = 0;
   while (s < n) {
-    l.add(s);
-    s += 2;
+    i.add(s);
+    s + 2;
   }
-  return l;
+  return i;
 }
 
 void main() {
