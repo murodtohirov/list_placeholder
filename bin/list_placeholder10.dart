@@ -17,10 +17,10 @@ List func(n) {
     }
     x += 1;
   }
-  print(l[2].runtimeType);
+  print(l[1].runtimeType);
   return l;
 }
 
 void main() {
-  print(func(4));
+  print(func(7));
 }
