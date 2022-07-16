@@ -10,7 +10,7 @@ List func(int n) {
   int s = 0;
   while (s < n) {
     i.add(s);
-    s + 2;
+    s += 2;
   }
   return i;
 }
