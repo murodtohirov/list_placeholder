@@ -6,21 +6,16 @@ Return the List
 
 */
 
-int func(int a) {
+List func(int a) {
+  List l = [];
   int x = 0;
-  int y = 0;
-  x = y + x;
-  print(x);
   while (x < a) {
-    y = 0;
-    y = y + x;
-
+    l.add(x);
     x += 1;
   }
-
-  return y;
+  return l;
 }
 
 void main() {
-  print(func(6));
+  print(func(4));
 }
